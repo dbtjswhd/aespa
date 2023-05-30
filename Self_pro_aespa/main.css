@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    height: 50px;
+}
+header > h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+nav{
+    margin-left: 110px;
+    height: 70px;
+}
+nav > ul{
+    text-align: center;
+}
+nav > ul > li{
+    display: inline-block;
+    margin-right: 130px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sec-div1 , .sec-div2{
+    width: 640px;
+    height: 800px;
+    display: inline-block;
+}
+.sec-div1{
+    margin-left: 100px;
+}
+.sec-div2{
+    margin-right: 100px;
+}
+.sec-main{
+    background-color: black;
+    height: 800px;
+    align-items: center;
+}
+.footer-main{
+    height: 70px;
+}
+.Social-sec{
+    background-color: black;
+    height: 500px;
+    align-items: center;
+}
+.footer-So{
+    height: 100px;
+}
+#but-1, #but-2, #but-3{
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: black;
+    border: none;
+}
+.h1-a{
+    
+    animation-duration: 1.8s;
+    animation-name: rainbowLink;
+    animation-iteration-count: infinite;
+}    
+    @keyframes rainbowLink {
+        0% { color: #ff2a2a; }
+        15% { color: #ff7a2a; }
+        30% { color: #ffc52a; }
+        45% { color: #43ff2a; }
+        60% { color: #2a89ff; }
+        75% { color: #202082; }
+        90% { color: #6b2aff; }
+        100% { color: #e82aff; }
+      }
+#member-img{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.member-img1-1{
+    float: left;
+}
+.member-img2{
+    float: left;
+}
